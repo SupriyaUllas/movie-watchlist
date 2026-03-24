@@ -22,7 +22,6 @@ The Movie Watchlist Web Application is a full stack web application that allows 
 ### Database
 
 * MongoDB
-* Mongoose
 
 ### API
 
