@@ -49,13 +49,13 @@ The Movie Watchlist Web Application is a full stack web application that allows 
 ## Project Architecture
 
 Frontend (HTML, CSS, JavaScript)   
-↓
+↓   
 Fetch API Requests   
-↓
+↓   
 Node.js Server   
-↓
+↓   
 Express Routes (REST API)   
-↓
+↓   
 MongoDB Database   
 
 ---
