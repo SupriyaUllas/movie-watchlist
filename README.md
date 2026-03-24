@@ -48,15 +48,15 @@ The Movie Watchlist Web Application is a full stack web application that allows 
 
 ## Project Architecture
 
-Frontend (HTML, CSS, JavaScript)
+Frontend (HTML, CSS, JavaScript)   
 ↓
-Fetch API Requests
+Fetch API Requests   
 ↓
-Node.js Server
+Node.js Server   
 ↓
-Express Routes (REST API)
+Express Routes (REST API)   
 ↓
-MongoDB Database
+MongoDB Database   
 
 ---
 
@@ -150,4 +150,3 @@ This project demonstrates a full stack web application using HTML, CSS, JavaScri
 ## Author
 
 Supriya U
-BCA Student
