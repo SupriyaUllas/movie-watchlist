@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
 
 // MongoDB Atlas Connection
-mongoose.connect("mongodb+srv://projectuser:project123@cluster0.484nlyo.mongodb.net/moviewatchlist")
+mongoose.connect(process.env.MONGO_URL)
 .then(() => console.log("MongoDB Atlas Connected"))
 .catch(err => console.log(err));
 
