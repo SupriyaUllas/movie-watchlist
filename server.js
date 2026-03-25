@@ -9,8 +9,9 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
 
-mongoose.connect("mongodb://127.0.0.1:27017/moviewatchlist")
-.then(() => console.log("MongoDB Connected"))
+// MongoDB Atlas Connection
+mongoose.connect("mongodb+srv://projectuser:project123@cluster0.484nlyo.mongodb.net/moviewatchlist")
+.then(() => console.log("MongoDB Atlas Connected"))
 .catch(err => console.log(err));
 
 const movieSchema = new mongoose.Schema({
